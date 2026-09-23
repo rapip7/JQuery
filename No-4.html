@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jquery Dasar</title>
+        <script type="text/Javascript" src="jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <h1>Effect JQuery</h1>
+    <button id="tombol">Tampilkan Kotak (slidedown)</button>
+    <button id="tombol2">Sembunyikan Kotak (slideup)</button>
+    <button id="tombol">Effect slide Toggle Kotak</button>
+    <div class="box"></div>
+</body>
+<script> type="text/Javascript"> $(document).ready(function(){
+    $('.#tombol').click(function(){
+        $('.box').slideDown() });
+    $('#tombol2').click(function(){
+        $('.box').slideUp()  });
+    $('#tombol3').click(function(){
+        $('.box').slideToggle()  });
+    })
+</script>
+</html>
